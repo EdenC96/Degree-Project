@@ -1,0 +1,76 @@
+/* CSS for Review, Discussion and Filmlist pages!*/
+.mainbox {
+    text-align: center;
+    width: 100%;
+}
+
+.listcontainer {
+    border: grey;
+    border-style: groove;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.listheader {
+    text-align: center;
+    width: 100%;
+    padding: 20 0 20 0;
+}
+.contentarea{
+    text-align: center;
+    background-color: #333;
+    margin: 30px 5% 50px 5%;
+    padding:5px 20px;
+    color: white;
+    width:40%;
+    word-break: break-word;
+}
+.lfloat{
+float:left;
+}
+.rfloat{
+float:right;
+}
+.subcontent{
+  background-color: #3d4952;
+  padding: 10px 5px;
+  margin: 15px 5px;
+}
+
+/*Responsive Screen CSS*/
+@media only screen and (max-width: 768px) {
+
+  .mainbox {
+      text-align: center;
+      width: 100%;
+  }
+
+  .listcontainer {
+      border: grey;
+      border-style: groove;
+      width: 75%;
+      text-align: center;
+      margin-left: 12.5%;
+      padding: 20px;
+      margin-bottom: 10px;
+  }
+  .lfloat{
+  float:none;
+  }
+  .rfloat{
+  float:none;
+  }
+  .contentarea{
+    text-align: center;
+    background-color: #333;
+    margin: 30px 10% 50px 10%;
+    padding:5px 20px;
+    color: white;
+    width:80%;
+    word-break: break-word;
+}
+}
+/*----------------------------------------------------------------------------*/

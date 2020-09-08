@@ -1,0 +1,49 @@
+/* Code for the Top Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20%;
+  text-decoration: none;
+}
+.mainnav_li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #111;
+  transition:0.3s;
+}
+
+span.listbtn {
+  padding: 14px 16px;
+}
+/*Nav Bar Shrinking to fit right on mobile devices!*/
+@media only screen and (max-width: 420px) {
+
+.mainnav_li a {
+  padding: 10px 5px;
+}
+span.listbtn {
+  padding: 10px 5px;
+}
+
+}
+/*----------------------------------------------------------------------------*/

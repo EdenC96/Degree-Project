@@ -1,0 +1,136 @@
+
+/* Responsive Login/Signup Box CSS */
+
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: grey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 25%;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  position: central;
+}
+
+.pageform{
+  margin: 0 auto;
+  /*width: 40%; */
+  background-color: #333;
+  text-align: left;
+  color: white;
+  padding: 10px 30px; 
+}
+button:hover {
+  opacity: 0.8;
+}
+.formlink:link, .formlink:visited {
+    color: grey;
+}
+.formlink:hover, .formlink:active {
+    color: white;
+    cursor: pointer;
+}
+.searchlink:link, .searchlink:visited {
+    color: black;
+
+}
+.searchlink:hover, .searchlink:active {
+    color: white;
+    cursor: pointer;
+}
+
+.whitelink:link, .whitelink:visited {
+    color: white;
+
+}
+.whitelink:hover, .whitelink:active {
+    color: #888;
+    cursor: pointer;
+}
+.errtxt{
+  margin: 20px auto;
+  width: 40%;
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0px;
+  color: white;
+}
+.displaytext{
+text-align: center;
+background-color: #333;
+margin: 20px 30% 0px 30%;
+padding:20px;
+color: white;
+}
+textarea {
+resize:none;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid grey;
+box-sizing: border-box;
+height:200px;
+}
+.discussionbox{
+text-align: center;
+background-color: #606060;
+margin: 20px 15% 0px 15%;
+padding: 10 15 10 15;
+color: black;
+}
+.discussionsec{
+margin: 0px 5% 0px 5%;
+padding-bottom: 25px;
+}
+.discusisonimg{
+float:left;
+height: 50px;
+width: 50px;
+}
+.discussiontxt{
+margin-left: 60px;
+word-break: break-word;
+text-align: left;
+}
+img.disimg{
+height: 50px;
+width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+.displaytext{
+text-align: center;
+background-color: #333;
+margin: 20px 15% 0px 15%;
+padding:20px;
+color: white;
+}
+.errtxt{
+  margin: 20px auto;
+  width: 60%;
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0px;
+  color: white;
+
+}
+.discussionbox{
+text-align: center;
+background-color: #606060;
+margin: 20px 5% 0px 5%;
+padding: 10 15 10 15;
+color: black;
+}
+/*----------------------------------------------------------------------------*/

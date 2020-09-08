@@ -1,0 +1,23 @@
+/* Global webpage CSS */
+body{
+  background-color: grey;
+  margin:0px;
+}
+
+h3 {
+  margin:5px;
+
+
+}
+hr {
+  margin:0px;
+}
+.borderbox {
+    border:grey 2px;
+    border-style:solid;
+    padding:5px;
+}
+p{
+margin:0;
+}
+/*---------------------------------------------*/
